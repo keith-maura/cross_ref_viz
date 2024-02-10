@@ -16,7 +16,12 @@ Final visualization in C++:
 
 <img src="https://user-images.githubusercontent.com/71294657/205728921-93c1d5ab-fb95-4341-90d8-b2a4e42936c9.jpg" alt="cross_refs_final" width="400"/>
 
-Final visualization in Java
+Final visualization in Java:
+
+
+
+
+https://github.com/keith-maura/cross_ref_viz/blob/main/java_cross_refs_light.png
 
 ## Description
 
