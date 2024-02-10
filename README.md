@@ -21,7 +21,7 @@ Final visualization in Java:
 
 
 
-https://github.com/keith-maura/cross_ref_viz/blob/main/java_cross_refs_light.png
+<img src="https://github.com/keith-maura/cross_ref_viz/blob/main/java_cross_refs_light.png" wids="400"/>
 
 ## Description
 
