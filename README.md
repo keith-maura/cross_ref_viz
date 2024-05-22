@@ -1,6 +1,15 @@
 
 # Biblical Cross References
-## Description:
+## Description
+
+For this project I created a visualization to illustrate cross references in the Bible. A cross reference is when one verse references or presents an idea connected to a verse elsewhere in the Bible. Components are a horizontal center line, vertical chapter lines, and arcs.
+
+The horizontal center line serves as a "timeline" or table of contents. The left endpoint is the beginning of the Bible and the right endopoint is the end.
+
+Vertical lines mark the beginning of a book. There is a vertical line marking Genesis 1, Exodus 1, Leviticus 1, ..., Revelation 1. (Note that vertical lines were implemented on only in Java updates of the visualization)
+
+Arcs represent cross references. Each endpoint corresponds to the location of the reference. Forward references (i.e. a reference from an earlier page to a later page) are above the center line, while references backwards are below the center line. Color indicates the destination of the reference as follows: red refers to an Old Testament reference, blue indicates a New Testament reference, and green indicates a reference within a book. Consider the example of a reference from Genesis 1:1 to Revelation 4:11. Revelation 4:11 is the 'to' reference and is a New Testament book. It's located after Genesis in the Bible, so the arc is placed above the center line and colored blue.
+##  Output
 Early iteration with a small subset of data:
 
 
@@ -23,15 +32,7 @@ Final visualization in Java:
 
 <img src="https://github.com/keith-maura/cross_ref_viz/blob/main/java_cross_refs_light.png" width="400"/>
 
-## Description
 
-For this project I created a visualization to illustrate cross references in the Bible. A cross reference is when one verse references or presents an idea connected to a verse elsewhere in the Bible. Components are a horizontal center line, vertical chapter lines, and arcs.
-
-The horizontal center line serves as a "timeline" or table of contents. The left endpoint is the beginning of the Bible and the right endopoint is the end.
-
-Vertical lines mark the beginning of a book. There is a vertical line marking Genesis 1, Exodus 1, Leviticus 1, ..., Revelation 1. (Note that vertical lines were implemented on only in Java updates of the visualization)
-
-Arcs represent cross references. Each endpoint corresponds to the location of the reference. Forward references (i.e. a reference from an earlier page to a later page) are above the center line, while references backwards are below the center line. Color indicates the destination of the reference as follows: red refers to an Old Testament reference, blue indicates a New Testament reference, and green indicates a reference within a book. Consider the example of a reference from Genesis 1:1 to Revelation 4:11. Revelation 4:11 is the 'to' reference and is a New Testament book. It's located after Genesis in the Bible, so the arc is placed above the center line and colored blue.
 
 ## Design
 
